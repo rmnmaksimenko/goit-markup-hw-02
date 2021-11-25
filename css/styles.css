@@ -24,22 +24,35 @@ li {
 
 /*  - - - - - - - стили разделов  - - - - - - - */
 
-/* раздел "заказать услугу" */
+/* - - - раздел "заказать услугу" - - - */
 
 .service-section {
   background-color: var(--color-background-second);
 }
 
-/* раздел "зачем выбирать нас" */
+/* - - - раздел "зачем выбирать нас" - - - */
 
 .why-us-section {
+}
+
+.why-us-title {
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
 }
 
 .why-us-list {
   /* list-style: none; */
 }
 
-/* раздел "чем мы занимаемся" */
+.why-us-paragraph {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+
+/* - - - раздел "чем мы занимаемся" - - - */
 
 .our-work-section {
 }
@@ -48,7 +61,7 @@ li {
   /* list-style: none; */
 }
 
-/* раздел "наша команда" */
+/* - - - раздел "наша команда" - - - */
 .our-team-section {
   background-color: var(--color-background-third);
 }
@@ -57,7 +70,20 @@ li {
   /* list-style: none; */
 }
 
-/* контакты (футер) */
+.our-team-title {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+}
+
+.our-team-post {
+  font-size: 16px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+}
+
+/* - - - контакты (футер) - - - */
 
 .contacts-footer {
   background-color: var(--color-background-second);
