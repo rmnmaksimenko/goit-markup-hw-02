@@ -5,7 +5,7 @@
   --color-third: #000;
   --color-fourth: #2196f3;
   --color-fifth: #fff;
-  --color-fifth-transpatent: rgba(255, 255, 255, 0.6);
+  --color-fifth-transparent: rgba(255, 255, 255, 0.6);
   --color-background-main: #fff;
   --color-background-second: #2f303a;
   --color-background-third: #f5f4fa;
@@ -209,13 +209,13 @@ li {
 }
 
 .mail-contacts-link {
-  color: var(--color-fifth-transpatent);
+  color: var(--color-fifth-transparent);
   font-style: normal;
   text-decoration: none;
 }
 
 .phone-contacts-link {
-  color: var(--color-fifth-transpatent);
+  color: var(--color-fifth-transparent);
   font-style: normal;
   text-decoration: none;
 }
