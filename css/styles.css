@@ -4,28 +4,21 @@
   --color-title: #212121;
   --color-third: #000;
   --color-fourth: #2196f3;
+  --color-fifth: #fff;
+  --color-fifth-transpatent: rgba(255, 255, 255, 0.6);
   --color-background-main: #fff;
   --color-background-second: #2f303a;
   --color-background-third: #f5f4fa;
 }
 
-/* Главный стиль документа */
+/* - - - - - - - главный стиль документа - - - - - - - */
 body {
   background-color: var(--color-background-main);
   font-family: 'Roboto', sans-serif;
   color: var(--color-main);
 }
 
-/* Заголовки */
-.title {
-  font-family: 'Raleway', sans-serif;
-  color: var(--color-title);
-  font-weight: bold;
-}
-
-.nav-list {
-  list-style: none;
-}
+/*  - - - - - - - стили разделов  - - - - - - - */
 
 /* раздел "заказать услугу" */
 
@@ -33,25 +26,77 @@ body {
   background-color: var(--color-background-second);
 }
 
+/* раздел "зачем выбирать нас" */
+
+.why-us-section {
+}
+
+.why-us-list {
+  list-style: none;
+}
+
+/* раздел "чем мы занимаемся" */
+
+.our-work-section {
+}
+
+.our-work-list {
+  list-style: none;
+}
+
+/* раздел "наша команда" */
+.our-team-section {
+  background-color: var(--color-background-third);
+}
+
+.our-team-list {
+  list-style: none;
+}
+
+/* контакты (футер) */
+
+.contacts-footer {
+  background-color: var(--color-background-second);
+}
+
+/* - - - - - - - заголовки - - - - - - - */
+
+/* стиль заголовков */
+
+.title {
+  font-family: 'Raleway', sans-serif;
+  color: var(--color-title);
+  font-weight: bold;
+}
+
 /* главный заголовок */
 
 .main-title {
-  color: #fff;
+  color: var(--color-fifth);
   font-family: Roboto;
   font-weight: 900;
   font-size: 44px;
   line-height: 1, 4;
-  /* or 136% */
-
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
 }
 
+/* стиль вторых заголовков */
+
+.title-second {
+  font-size: 36px;
+  line-height: 1.167;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+/* - - - - - - - кнопки - - - - - - - */
+
 /* кнопка "заказать услугу" */
 
 .service-button {
-  color: #fff;
+  color: var(--color-fifth);
   background-color: var(--color-fourth);
   font-family: Roboto;
   font-weight: 700;
@@ -65,4 +110,107 @@ body {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   /* position: absolute; */
+}
+
+/* - - - - - - -  ссылки - - - - - - -  */
+
+/* навигационные ссылки */
+
+.nav-list {
+  list-style: none;
+}
+
+.nav-link {
+  color: var(--color-third);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.142;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+}
+
+/* .nav-link:focus,
+.nav-link:hover {
+  color: var(--color-fourth);
+} */
+
+/* ссылка на веб студию */
+
+.main-page-link {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+  color: var(--color-fourth);
+}
+
+.main-page-link-dark {
+  color: var(--color-third);
+}
+
+.main-page-link-light {
+  color: var(--color-fifth);
+}
+
+/* .main-page-link-dark:hover,
+.main-page-link-dark:focus,
+.main-page-link-light:hover,
+.main-page-link-light:focus {
+  color: var(--color-fourth);
+} */
+
+/* почта-телефон в шапке */
+
+.mail-phone-list {
+  list-style: none;
+}
+
+.mail-phone-link {
+  color: var(--color-main);
+  font-family: Roboto, sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+}
+
+/* .mail-phone-link:hover,
+.mail-phone-link:focus {
+  color: var(--color-fourth);
+} */
+
+/* стиль контактов */
+
+.contacts-list {
+  font-size: 14px;
+  line-height: 1.714;
+  letter-spacing: 0.03em;
+  list-style: none;
+}
+
+.map-address-link {
+  color: var(--color-fifth);
+  font-style: normal;
+  text-decoration: none;
+}
+
+.mail-contacts-link {
+  color: var(--color-fifth-transpatent);
+  font-style: normal;
+  text-decoration: none;
+}
+
+.phone-contacts-link {
+  color: var(--color-fifth-transpatent);
+  font-style: normal;
+  text-decoration: none;
+}
+
+.link-backlight:hover,
+.link-backlight:focus {
+  color: var(--color-fourth);
 }
