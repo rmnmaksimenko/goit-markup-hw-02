@@ -94,16 +94,14 @@ li {
 /* стиль заголовков */
 
 .title {
-  font-family: 'Raleway', sans-serif;
   color: var(--color-title);
-  font-weight: bold;
+  /* font-weight: 700; */
 }
 
 /* главный заголовок */
 
 .main-title {
   color: var(--color-fifth);
-  font-family: Roboto;
   font-weight: 900;
   font-size: 44px;
   line-height: 1, 4;
@@ -115,6 +113,7 @@ li {
 /* стиль вторых заголовков */
 
 .title-second {
+  font-weight: 700;
   font-size: 36px;
   line-height: 1.167;
   text-align: center;
@@ -126,7 +125,7 @@ li {
 /* кнопка "заказать услугу" */
 
 .service-button {
-  font-family: Roboto;
+  font-family: inherit, sans-serif;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
@@ -134,18 +133,17 @@ li {
   text-align: center;
   letter-spacing: 0.06em;
   cursor: pointer;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  border-radius: 4px;
   border-style: none;
-  background-color: var(--color-background-third);
-  color: var(--color-title);
+  color: var(--color-fifth);
+  background-color: var(--color-fourth);
   /* position: absolute; */
 }
 
 .service-button:hover,
 .service-button:focus {
-  color: var(--color-fifth);
-  background-color: var(--color-fourth);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  border-style: none;
 }
 
 /* - - - - - - -  ссылки - - - - - - -  */
@@ -172,10 +170,9 @@ li {
 
 /* ссылка на веб студию */
 
-.main-page-link {
+.logo-link {
   font-family: Raleway;
-  font-style: normal;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 26px;
   line-height: 1.2;
   letter-spacing: 0.03em;
@@ -183,11 +180,11 @@ li {
   color: var(--color-fourth);
 }
 
-.main-page-link-dark {
+.logo-link-dark {
   color: var(--color-third);
 }
 
-.main-page-link-light {
+.logo-link-light {
   color: var(--color-fifth);
 }
 
@@ -206,7 +203,6 @@ li {
 
 .mail-phone-link {
   color: var(--color-main);
-  font-family: Roboto, sans-serif;
   font-weight: 500;
   font-size: 14px;
   line-height: 16px;
@@ -229,20 +225,20 @@ li {
 }
 
 .map-address-link {
-  color: var(--color-fifth);
   font-style: normal;
+  color: var(--color-fifth);
   text-decoration: none;
 }
 
 .mail-contacts-link {
-  color: var(--color-fifth-transparent);
   font-style: normal;
+  color: var(--color-fifth-transparent);
   text-decoration: none;
 }
 
 .phone-contacts-link {
-  color: var(--color-fifth-transparent);
   font-style: normal;
+  color: var(--color-fifth-transparent);
   text-decoration: none;
 }
 
@@ -268,7 +264,7 @@ li {
 }
 
 .portfolio-nav-button {
-  font-family: 'Roboto', sans-serif;
+  font-family: inherit, sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
